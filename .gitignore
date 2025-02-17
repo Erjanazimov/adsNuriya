@@ -1,0 +1,68 @@
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Local environment files
+*.local
+*.log*
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Dependency directories
+node_modules/
+.cargo/
+target/
+build/
+dist/
+
+# rsbuild cache and output
+.rsbuild/
+*.rsbuild_cache
+.rsbuild-lock
+
+# Generated files
+*.tsbuildinfo
+*.lock
+
+# IDE and editor-specific files
+.vscode/
+!.vscode/extensions.json
+.idea/
+*.sublime-*
+*.swp
+*.swo
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Debug files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Package manager files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Production build
+out/
+exports/
+
+# Static analysis tools
+.eslintcache
+.stylelintcache
+
+# Miscellaneous
+*.bak
+*.tmp
+*.temp
+*.old
+*.orig
+*.rej
+*.patch
