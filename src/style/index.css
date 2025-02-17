@@ -345,7 +345,8 @@ html, body, div, span, applet, object, iframe,
   background: url("https://www.attractor-software.com/static/media/main_layer_1.9d7275e1.png") no-repeat 50% fixed;
   background-size: cover;
   position: relative;
-
+  background: rgb(2,0,36);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 52%, rgba(0,212,255,1) 100%);
 }
 
 .fadeInLeft {
