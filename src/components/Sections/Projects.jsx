@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import avatar from "../../assets/images/nur.jpeg"
+import avatar from "../../assets/images/nuriya2.jpeg"
 // Components
 import ProjectBox from "../Elements/ProjectBox";
 import FullButton from "../Buttons/FullButton";

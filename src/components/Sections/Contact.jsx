@@ -29,12 +29,14 @@ const ServiceCost = () => {
           <p style={styles.contactText}>Напиши мне, и я помогу выбрать оптимальный вариант под твои задачи! 🚀</p>
         </div>
         <div style={{display: "flex", justifyContent: "center"}}>
-          <div className="btns">
-            Записаться на консультацию
-          </div>
+          <a href="https://wa.me/996776807961" target="_blank">
+            <div className="btns">
+              Записаться на консультацию
+            </div>
+          </a>
         </div>
       </div>
-  );
+);
 };
 
 const styles = {

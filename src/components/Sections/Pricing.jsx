@@ -46,13 +46,15 @@ export default function Pricing() {
                         </p>
                     </div>
                     <div style={{display: "flex", justifyContent: "center"}}>
-                        <div className="btns">
-                            Записаться на консультацию
-                        </div>
+                        <a href="https://wa.me/996776807961" target="_blank">
+                            <div className="btns">
+                                Записаться на консультацию
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div>
-                    <img src={gif} alt="gif"/>
+                <img src={gif} alt="gif"/>
                 </div>
             </div>
         </div>

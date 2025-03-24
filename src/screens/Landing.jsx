@@ -48,9 +48,9 @@ export default function Landing() {
                 <Projects />
             </FadeInSection>
             <FadeInSection direction="left">
-                <Contact />
+                {/*<Contact />*/}
             </FadeInSection>
-            <Footer />
+            {/*<Footer />*/}
         </>
     );
 }

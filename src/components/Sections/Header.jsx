@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import HeaderImage from "../../assets/images/nuriya2.jpeg";
+import HeaderImage from "../../assets/images/nuriya3.png";
 import QuotesIcon from "../../assets/svg/Quotes";
 
 export default function Header() {
@@ -8,13 +8,15 @@ export default function Header() {
       <Wrapper id="home" className="bg flexSpaceCenter">
         <LeftSide className="flexCenter">
           <div>
-            <h1 className="extraBold text" style={{ fontSize: "4rem", color: "#fff" }}>Прибыльная реклама для бизнеса</h1>
-            <HeaderP className="font13 semiBold" style={{ fontSize: "18px", color: "#fff" }}>
+            <h1 className="extraBold text" style={{fontSize: "4rem", color: "#fff"}}>Прибыльная реклама для бизнеса</h1>
+            <HeaderP className="font13 semiBold" style={{fontSize: "18px", color: "#fff"}}>
               Помогаю бизнесу находить платежеспособных клиентов через Instagram и Facebook Ads.
             </HeaderP>
-            <div className="btns">
-              Записаться на консультацию
-            </div>
+            <a href="https://wa.me/996776807961" target="_blank">
+              <div className="btns">
+                Записаться на консультацию
+              </div>
+            </a>
           </div>
         </LeftSide>
         <RightSide>
