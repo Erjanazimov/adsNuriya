@@ -9,7 +9,7 @@ export default function Header() {
         <LeftSide className="flexCenter">
           <div>
             <h1 className="extraBold text" style={{fontSize: "4rem", color: "#fff"}}>Прибыльная реклама для бизнеса</h1>
-            <HeaderP className="font13 semiBold" style={{fontSize: "18px", color: "#fff"}}>
+            <HeaderP className="font13 text2" style={{fontSize: "18px", color: "#fff"}}>
               Помогаю бизнесу находить платежеспособных клиентов через Instagram и Facebook Ads.
             </HeaderP>
             <a href="https://wa.me/996776807961" target="_blank">

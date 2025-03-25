@@ -2,7 +2,7 @@ import React from 'react';
 
 const ServiceCost = () => {
   return (
-      <div className="container" style={{marginBottom: "3rem"}}>
+      <div className="container" style={{marginBottom: "3rem"}} id="contact">
         {/*<div style={styles.header}>*/}
         {/*  <h1 style={styles.title}>Стоимость услуги</h1>*/}
         {/*  <p style={styles.description}>*/}
